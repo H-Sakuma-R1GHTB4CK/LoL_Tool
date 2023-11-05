@@ -1,0 +1,15 @@
+/* styles.css */
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    /* センタリングとスペースの配分 */
+}
+
+.list-container {
+    margin: 0 10px;
+    flex: 1;
+    /* 各項目が均等にスペースを取るように */
+}
+
+/* 必要に応じて他のスタイル */

@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let selectedChampions: string[] = [];
 
     function fetchData(): Promise<ChampionsData> {
-        return fetch('data.json') // JSONファイルのパス
+        return fetch('src/data.json') // JSONファイルのパス
             .then(response => {
                 if (!response.ok) {
                     throw new Error('Network response was not ok');

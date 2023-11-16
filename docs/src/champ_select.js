@@ -15,7 +15,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const list = document.getElementById('championsContainer');
         list.innerHTML = ''; // リストをクリア
         Object.keys(championsData).forEach((champion) => {
-            if (champion.toLowerCase().includes(searchQuery)) {
+            const japaneseName = championsData[champion].japanese_name.toLowerCase();
+            if (champion.toLowerCase().includes(searchQuery) || japaneseName.includes(searchQuery)) {
                 const checkbox = document.createElement('input');
                 checkbox.type = 'checkbox';
                 checkbox.id = champion;
@@ -27,8 +28,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 };
                 const label = document.createElement('label');
                 label.htmlFor = champion;
-                // チャンピオンの英名、日本語名、役割をラベルに追加
-                const japaneseName = championsData[champion].japanese_name;
                 const roles = championsData[champion].positions.join(' ');
                 label.appendChild(document.createTextNode(`${champion}(${japaneseName}) : ${roles}`));
                 list.appendChild(checkbox);

@@ -1,4 +1,4 @@
-
+import os
 import requests
 from bs4 import BeautifulSoup
 import json
@@ -59,7 +59,8 @@ def write_champions_to_json(champions_data, filename='data.json'):
             positions = get_positions(eng_name)
             champ_dict[eng_name] = {'japanese_name': jap_name, 'positions': positions}
 
-    with open(filename, 'w', encoding='utf-8') as file:
+    file_path = os.path.join(os.path.dirname(__file__), '..', 'docs', 'src', filename)
+    with open(file_path, 'w', encoding='utf-8') as file:
         json_data = json.dumps(champ_dict, ensure_ascii=False, indent=2)
         file.write(json_data)
 

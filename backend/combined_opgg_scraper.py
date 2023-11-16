@@ -5,7 +5,9 @@ import json
 
 def get_html_from_opgg(url):
     headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3',
+        'Accept-Language': 'ja-JP'  # 日本語でのレスポンスを要求
+        }
     response = requests.get(url, headers=headers)
     return response.text if response.status_code == 200 else None
 

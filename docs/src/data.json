@@ -1,1053 +1,1053 @@
 {
-  "aatrox": {
-    "japanese_name": "Aatrox",
+  "ivern": {
+    "japanese_name": "アイバーン",
     "positions": [
-      "top"
-    ]
-  },
-  "ahri": {
-    "japanese_name": "Ahri",
-    "positions": [
-      "mid",
-      "top"
+      "jungle"
     ]
   },
   "akali": {
-    "japanese_name": "Akali",
+    "japanese_name": "アカリ",
     "positions": [
       "mid",
       "top"
     ]
   },
   "akshan": {
-    "japanese_name": "Akshan",
+    "japanese_name": "アクシャン",
     "positions": [
       "mid",
       "top"
     ]
   },
-  "alistar": {
-    "japanese_name": "Alistar",
+  "azir": {
+    "japanese_name": "アジール",
     "positions": [
-      "support"
+      "mid"
     ]
   },
-  "amumu": {
-    "japanese_name": "Amumu",
+  "ashe": {
+    "japanese_name": "アッシュ",
     "positions": [
       "support",
-      "jungle"
+      "adc"
     ]
   },
   "anivia": {
-    "japanese_name": "Anivia",
+    "japanese_name": "アニビア",
     "positions": [
       "mid"
     ]
   },
   "annie": {
-    "japanese_name": "Annie",
+    "japanese_name": "アニー",
     "positions": [
       "mid"
     ]
   },
   "aphelios": {
-    "japanese_name": "Aphelios",
+    "japanese_name": "アフェリオス",
     "positions": [
       "adc"
     ]
   },
-  "ashe": {
-    "japanese_name": "Ashe",
+  "amumu": {
+    "japanese_name": "アムム",
     "positions": [
-      "support",
-      "adc"
-    ]
-  },
-  "aurelionsol": {
-    "japanese_name": "Aurelion Sol",
-    "positions": [
-      "mid"
-    ]
-  },
-  "azir": {
-    "japanese_name": "Azir",
-    "positions": [
-      "mid"
-    ]
-  },
-  "bard": {
-    "japanese_name": "Bard",
-    "positions": [
-      "support"
-    ]
-  },
-  "belveth": {
-    "japanese_name": "Bel'Veth",
-    "positions": [
-      "jungle"
-    ]
-  },
-  "blitzcrank": {
-    "japanese_name": "Blitzcrank",
-    "positions": [
-      "support"
-    ]
-  },
-  "brand": {
-    "japanese_name": "Brand",
-    "positions": [
-      "mid",
       "support",
       "jungle"
     ]
   },
-  "braum": {
-    "japanese_name": "Braum",
+  "alistar": {
+    "japanese_name": "アリスター",
     "positions": [
       "support"
     ]
   },
-  "briar": {
-    "japanese_name": "Briar",
-    "positions": [
-      "jungle"
-    ]
-  },
-  "caitlyn": {
-    "japanese_name": "Caitlyn",
-    "positions": [
-      "adc"
-    ]
-  },
-  "camille": {
-    "japanese_name": "Camille",
+  "urgot": {
+    "japanese_name": "アーゴット",
     "positions": [
       "top"
     ]
   },
-  "cassiopeia": {
-    "japanese_name": "Cassiopeia",
-    "positions": [
-      "mid"
-    ]
-  },
-  "chogath": {
-    "japanese_name": "Cho'Gath",
+  "ahri": {
+    "japanese_name": "アーリ",
     "positions": [
       "mid",
       "top"
-    ]
-  },
-  "corki": {
-    "japanese_name": "Corki",
-    "positions": [
-      "mid"
-    ]
-  },
-  "darius": {
-    "japanese_name": "Darius",
-    "positions": [
-      "top"
-    ]
-  },
-  "diana": {
-    "japanese_name": "Diana",
-    "positions": [
-      "mid",
-      "jungle"
-    ]
-  },
-  "drmundo": {
-    "japanese_name": "Dr. Mundo",
-    "positions": [
-      "top"
-    ]
-  },
-  "draven": {
-    "japanese_name": "Draven",
-    "positions": [
-      "adc"
-    ]
-  },
-  "ekko": {
-    "japanese_name": "Ekko",
-    "positions": [
-      "mid",
-      "jungle"
-    ]
-  },
-  "elise": {
-    "japanese_name": "Elise",
-    "positions": [
-      "jungle"
     ]
   },
   "evelynn": {
-    "japanese_name": "Evelynn",
+    "japanese_name": "イブリン",
     "positions": [
       "jungle"
-    ]
-  },
-  "ezreal": {
-    "japanese_name": "Ezreal",
-    "positions": [
-      "adc"
-    ]
-  },
-  "fiddlesticks": {
-    "japanese_name": "Fiddlesticks",
-    "positions": [
-      "support",
-      "jungle"
-    ]
-  },
-  "fiora": {
-    "japanese_name": "Fiora",
-    "positions": [
-      "top"
-    ]
-  },
-  "fizz": {
-    "japanese_name": "Fizz",
-    "positions": [
-      "mid"
-    ]
-  },
-  "galio": {
-    "japanese_name": "Galio",
-    "positions": [
-      "mid"
-    ]
-  },
-  "gangplank": {
-    "japanese_name": "Gangplank",
-    "positions": [
-      "mid",
-      "top"
-    ]
-  },
-  "garen": {
-    "japanese_name": "Garen",
-    "positions": [
-      "top"
-    ]
-  },
-  "gnar": {
-    "japanese_name": "Gnar",
-    "positions": [
-      "top"
-    ]
-  },
-  "gragas": {
-    "japanese_name": "Gragas",
-    "positions": [
-      "top",
-      "jungle"
-    ]
-  },
-  "graves": {
-    "japanese_name": "Graves",
-    "positions": [
-      "jungle"
-    ]
-  },
-  "gwen": {
-    "japanese_name": "Gwen",
-    "positions": [
-      "top",
-      "jungle"
-    ]
-  },
-  "hecarim": {
-    "japanese_name": "Hecarim",
-    "positions": [
-      "jungle"
-    ]
-  },
-  "heimerdinger": {
-    "japanese_name": "Heimerdinger",
-    "positions": [
-      "support"
     ]
   },
   "illaoi": {
-    "japanese_name": "Illaoi",
+    "japanese_name": "イラオイ",
     "positions": [
       "top"
     ]
   },
   "irelia": {
-    "japanese_name": "Irelia",
+    "japanese_name": "イレリア",
     "positions": [
       "mid",
       "top"
     ]
   },
-  "ivern": {
-    "japanese_name": "Ivern",
+  "udyr": {
+    "japanese_name": "ウディア",
     "positions": [
-      "jungle"
+      "jungle",
+      "top"
     ]
   },
-  "janna": {
-    "japanese_name": "Janna",
+  "monkeyking": {
+    "japanese_name": "ウーコン",
     "positions": [
-      "support"
+      "jungle",
+      "top"
     ]
   },
-  "jarvaniv": {
-    "japanese_name": "Jarvan IV",
+  "aatrox": {
+    "japanese_name": "エイトロックス",
     "positions": [
-      "jungle"
+      "top"
     ]
   },
-  "jax": {
-    "japanese_name": "Jax",
-    "positions": [
-      "top",
-      "jungle"
-    ]
-  },
-  "jayce": {
-    "japanese_name": "Jayce",
+  "ekko": {
+    "japanese_name": "エコー",
     "positions": [
       "mid",
-      "top"
+      "jungle"
     ]
   },
-  "jhin": {
-    "japanese_name": "Jhin",
+  "ezreal": {
+    "japanese_name": "エズリアル",
     "positions": [
       "adc"
     ]
   },
-  "jinx": {
-    "japanese_name": "Jinx",
-    "positions": [
-      "adc"
-    ]
-  },
-  "ksante": {
-    "japanese_name": "K'Sante",
-    "positions": [
-      "top"
-    ]
-  },
-  "kaisa": {
-    "japanese_name": "Kai'Sa",
-    "positions": [
-      "adc"
-    ]
-  },
-  "kalista": {
-    "japanese_name": "Kalista",
-    "positions": [
-      "adc"
-    ]
-  },
-  "karma": {
-    "japanese_name": "Karma",
-    "positions": [
-      "support"
-    ]
-  },
-  "karthus": {
-    "japanese_name": "Karthus",
-    "positions": [
-      "jungle"
-    ]
-  },
-  "kassadin": {
-    "japanese_name": "Kassadin",
-    "positions": [
-      "mid"
-    ]
-  },
-  "katarina": {
-    "japanese_name": "Katarina",
-    "positions": [
-      "mid"
-    ]
-  },
-  "kayle": {
-    "japanese_name": "Kayle",
-    "positions": [
-      "top"
-    ]
-  },
-  "kayn": {
-    "japanese_name": "Kayn",
-    "positions": [
-      "jungle"
-    ]
-  },
-  "kennen": {
-    "japanese_name": "Kennen",
-    "positions": [
-      "top"
-    ]
-  },
-  "khazix": {
-    "japanese_name": "Kha'Zix",
-    "positions": [
-      "jungle"
-    ]
-  },
-  "kindred": {
-    "japanese_name": "Kindred",
-    "positions": [
-      "jungle"
-    ]
-  },
-  "kled": {
-    "japanese_name": "Kled",
-    "positions": [
-      "top"
-    ]
-  },
-  "kogmaw": {
-    "japanese_name": "Kog'Maw",
-    "positions": [
-      "adc"
-    ]
-  },
-  "leblanc": {
-    "japanese_name": "LeBlanc",
-    "positions": [
-      "mid"
-    ]
-  },
-  "leesin": {
-    "japanese_name": "Lee Sin",
-    "positions": [
-      "jungle"
-    ]
-  },
-  "leona": {
-    "japanese_name": "Leona",
-    "positions": [
-      "support"
-    ]
-  },
-  "lillia": {
-    "japanese_name": "Lillia",
-    "positions": [
-      "jungle"
-    ]
-  },
-  "lissandra": {
-    "japanese_name": "Lissandra",
-    "positions": [
-      "mid"
-    ]
-  },
-  "lucian": {
-    "japanese_name": "Lucian",
-    "positions": [
-      "adc"
-    ]
-  },
-  "lulu": {
-    "japanese_name": "Lulu",
-    "positions": [
-      "support"
-    ]
-  },
-  "lux": {
-    "japanese_name": "Lux",
-    "positions": [
-      "mid",
-      "support"
-    ]
-  },
-  "malphite": {
-    "japanese_name": "Malphite",
-    "positions": [
-      "mid",
-      "top"
-    ]
-  },
-  "malzahar": {
-    "japanese_name": "Malzahar",
-    "positions": [
-      "mid"
-    ]
-  },
-  "maokai": {
-    "japanese_name": "Maokai",
-    "positions": [
-      "support",
-      "top",
-      "jungle"
-    ]
-  },
-  "masteryi": {
-    "japanese_name": "Master Yi",
-    "positions": [
-      "jungle"
-    ]
-  },
-  "milio": {
-    "japanese_name": "Milio",
-    "positions": [
-      "support"
-    ]
-  },
-  "missfortune": {
-    "japanese_name": "Miss Fortune",
-    "positions": [
-      "adc"
-    ]
-  },
-  "mordekaiser": {
-    "japanese_name": "Mordekaiser",
-    "positions": [
-      "top"
-    ]
-  },
-  "morgana": {
-    "japanese_name": "Morgana",
-    "positions": [
-      "support",
-      "jungle"
-    ]
-  },
-  "naafiri": {
-    "japanese_name": "Naafiri",
-    "positions": [
-      "mid",
-      "top"
-    ]
-  },
-  "nami": {
-    "japanese_name": "Nami",
-    "positions": [
-      "support"
-    ]
-  },
-  "nasus": {
-    "japanese_name": "Nasus",
-    "positions": [
-      "top"
-    ]
-  },
-  "nautilus": {
-    "japanese_name": "Nautilus",
-    "positions": [
-      "support"
-    ]
-  },
-  "neeko": {
-    "japanese_name": "Neeko",
-    "positions": [
-      "mid",
-      "support"
-    ]
-  },
-  "nidalee": {
-    "japanese_name": "Nidalee",
-    "positions": [
-      "jungle"
-    ]
-  },
-  "nilah": {
-    "japanese_name": "Nilah",
-    "positions": [
-      "adc"
-    ]
-  },
-  "nocturne": {
-    "japanese_name": "Nocturne",
-    "positions": [
-      "jungle"
-    ]
-  },
-  "nunu": {
-    "japanese_name": "Nunu & Willump",
+  "elise": {
+    "japanese_name": "エリス",
     "positions": [
       "jungle"
     ]
   },
   "olaf": {
-    "japanese_name": "Olaf",
+    "japanese_name": "オラフ",
     "positions": [
       "top"
     ]
   },
   "orianna": {
-    "japanese_name": "Orianna",
+    "japanese_name": "オリアナ",
+    "positions": [
+      "mid"
+    ]
+  },
+  "aurelionsol": {
+    "japanese_name": "オレリオン・ソル",
     "positions": [
       "mid"
     ]
   },
   "ornn": {
-    "japanese_name": "Ornn",
+    "japanese_name": "オーン",
     "positions": [
       "top"
     ]
   },
-  "pantheon": {
-    "japanese_name": "Pantheon",
+  "kaisa": {
+    "japanese_name": "カイ＝サ",
     "positions": [
-      "mid",
-      "support",
+      "adc"
+    ]
+  },
+  "kassadin": {
+    "japanese_name": "カサディン",
+    "positions": [
+      "mid"
+    ]
+  },
+  "cassiopeia": {
+    "japanese_name": "カシオペア",
+    "positions": [
+      "mid"
+    ]
+  },
+  "katarina": {
+    "japanese_name": "カタリナ",
+    "positions": [
+      "mid"
+    ]
+  },
+  "camille": {
+    "japanese_name": "カミール",
+    "positions": [
       "top"
     ]
   },
-  "poppy": {
-    "japanese_name": "Poppy",
+  "kalista": {
+    "japanese_name": "カリスタ",
     "positions": [
-      "support",
-      "top",
+      "adc"
+    ]
+  },
+  "karma": {
+    "japanese_name": "カルマ",
+    "positions": [
+      "support"
+    ]
+  },
+  "ksante": {
+    "japanese_name": "カ・サンテ",
+    "positions": [
+      "top"
+    ]
+  },
+  "karthus": {
+    "japanese_name": "カーサス",
+    "positions": [
       "jungle"
     ]
   },
-  "pyke": {
-    "japanese_name": "Pyke",
+  "khazix": {
+    "japanese_name": "カ＝ジックス",
     "positions": [
-      "support"
+      "jungle"
+    ]
+  },
+  "galio": {
+    "japanese_name": "ガリオ",
+    "positions": [
+      "mid"
+    ]
+  },
+  "garen": {
+    "japanese_name": "ガレン",
+    "positions": [
+      "top"
+    ]
+  },
+  "gangplank": {
+    "japanese_name": "ガングプランク",
+    "positions": [
+      "mid",
+      "top"
     ]
   },
   "qiyana": {
-    "japanese_name": "Qiyana",
+    "japanese_name": "キヤナ",
     "positions": [
       "mid"
+    ]
+  },
+  "kindred": {
+    "japanese_name": "キンドレッド",
+    "positions": [
+      "jungle"
     ]
   },
   "quinn": {
-    "japanese_name": "Quinn",
+    "japanese_name": "クイン",
     "positions": [
       "top"
     ]
   },
-  "rakan": {
-    "japanese_name": "Rakan",
-    "positions": [
-      "support"
-    ]
-  },
-  "rammus": {
-    "japanese_name": "Rammus",
-    "positions": [
-      "jungle"
-    ]
-  },
-  "reksai": {
-    "japanese_name": "Rek'Sai",
-    "positions": [
-      "jungle"
-    ]
-  },
-  "rell": {
-    "japanese_name": "Rell",
-    "positions": [
-      "support",
-      "jungle"
-    ]
-  },
-  "renata": {
-    "japanese_name": "Renata Glasc",
-    "positions": [
-      "support"
-    ]
-  },
-  "renekton": {
-    "japanese_name": "Renekton",
-    "positions": [
-      "mid",
-      "top"
-    ]
-  },
-  "rengar": {
-    "japanese_name": "Rengar",
-    "positions": [
-      "top",
-      "jungle"
-    ]
-  },
-  "riven": {
-    "japanese_name": "Riven",
+  "kled": {
+    "japanese_name": "クレッド",
     "positions": [
       "top"
     ]
   },
-  "rumble": {
-    "japanese_name": "Rumble",
+  "gwen": {
+    "japanese_name": "グウェン",
     "positions": [
-      "mid",
-      "top",
+      "jungle",
+      "top"
+    ]
+  },
+  "gragas": {
+    "japanese_name": "グラガス",
+    "positions": [
+      "jungle",
+      "top"
+    ]
+  },
+  "graves": {
+    "japanese_name": "グレイブス",
+    "positions": [
       "jungle"
     ]
   },
-  "ryze": {
-    "japanese_name": "Ryze",
+  "caitlyn": {
+    "japanese_name": "ケイトリン",
+    "positions": [
+      "adc"
+    ]
+  },
+  "kayle": {
+    "japanese_name": "ケイル",
+    "positions": [
+      "top"
+    ]
+  },
+  "kayn": {
+    "japanese_name": "ケイン",
+    "positions": [
+      "jungle"
+    ]
+  },
+  "kennen": {
+    "japanese_name": "ケネン",
+    "positions": [
+      "top"
+    ]
+  },
+  "kogmaw": {
+    "japanese_name": "コグ＝マウ",
+    "positions": [
+      "adc"
+    ]
+  },
+  "corki": {
+    "japanese_name": "コーキ",
     "positions": [
       "mid"
     ]
   },
+  "sion": {
+    "japanese_name": "サイオン",
+    "positions": [
+      "top"
+    ]
+  },
+  "sylas": {
+    "japanese_name": "サイラス",
+    "positions": [
+      "jungle",
+      "mid",
+      "top"
+    ]
+  },
   "samira": {
-    "japanese_name": "Samira",
+    "japanese_name": "サミーラ",
     "positions": [
       "adc"
     ]
   },
-  "sejuani": {
-    "japanese_name": "Sejuani",
-    "positions": [
-      "jungle"
-    ]
-  },
-  "senna": {
-    "japanese_name": "Senna",
+  "zyra": {
+    "japanese_name": "ザイラ",
     "positions": [
       "support"
     ]
   },
-  "seraphine": {
-    "japanese_name": "Seraphine",
+  "zac": {
+    "japanese_name": "ザック",
     "positions": [
       "support",
+      "jungle",
+      "top"
+    ]
+  },
+  "xayah": {
+    "japanese_name": "ザヤ",
+    "positions": [
       "adc"
     ]
   },
-  "sett": {
-    "japanese_name": "Sett",
+  "shen": {
+    "japanese_name": "シェン",
     "positions": [
       "top"
     ]
   },
   "shaco": {
-    "japanese_name": "Shaco",
+    "japanese_name": "シャコ",
     "positions": [
       "support",
       "jungle"
     ]
   },
-  "shen": {
-    "japanese_name": "Shen",
+  "singed": {
+    "japanese_name": "シンジド",
     "positions": [
       "top"
     ]
   },
-  "shyvana": {
-    "japanese_name": "Shyvana",
+  "syndra": {
+    "japanese_name": "シンドラ",
+    "positions": [
+      "mid"
+    ]
+  },
+  "xinzhao": {
+    "japanese_name": "シン・ジャオ",
     "positions": [
       "jungle"
     ]
   },
-  "singed": {
-    "japanese_name": "Singed",
+  "shyvana": {
+    "japanese_name": "シヴァーナ",
     "positions": [
-      "top"
-    ]
-  },
-  "sion": {
-    "japanese_name": "Sion",
-    "positions": [
-      "top"
+      "jungle"
     ]
   },
   "sivir": {
-    "japanese_name": "Sivir",
+    "japanese_name": "シヴィア",
     "positions": [
       "adc"
     ]
   },
-  "skarner": {
-    "japanese_name": "Skarner",
+  "jayce": {
+    "japanese_name": "ジェイス",
+    "positions": [
+      "mid",
+      "top"
+    ]
+  },
+  "ziggs": {
+    "japanese_name": "ジグス",
+    "positions": [
+      "mid",
+      "adc"
+    ]
+  },
+  "jax": {
+    "japanese_name": "ジャックス",
+    "positions": [
+      "jungle",
+      "top"
+    ]
+  },
+  "janna": {
+    "japanese_name": "ジャンナ",
+    "positions": [
+      "support"
+    ]
+  },
+  "jarvaniv": {
+    "japanese_name": "ジャーヴァンⅣ",
     "positions": [
       "jungle"
     ]
   },
+  "zilean": {
+    "japanese_name": "ジリアン",
+    "positions": [
+      "support"
+    ]
+  },
+  "jhin": {
+    "japanese_name": "ジン",
+    "positions": [
+      "adc"
+    ]
+  },
+  "jinx": {
+    "japanese_name": "ジンクス",
+    "positions": [
+      "adc"
+    ]
+  },
+  "swain": {
+    "japanese_name": "スウェイン",
+    "positions": [
+      "support",
+      "mid",
+      "adc"
+    ]
+  },
+  "skarner": {
+    "japanese_name": "スカーナー",
+    "positions": [
+      "jungle"
+    ]
+  },
+  "thresh": {
+    "japanese_name": "スレッシュ",
+    "positions": [
+      "support"
+    ]
+  },
+  "sejuani": {
+    "japanese_name": "セジュアニ",
+    "positions": [
+      "jungle"
+    ]
+  },
+  "sett": {
+    "japanese_name": "セト",
+    "positions": [
+      "top"
+    ]
+  },
+  "senna": {
+    "japanese_name": "セナ",
+    "positions": [
+      "support"
+    ]
+  },
+  "seraphine": {
+    "japanese_name": "セラフィーン",
+    "positions": [
+      "support",
+      "adc"
+    ]
+  },
+  "zed": {
+    "japanese_name": "ゼド",
+    "positions": [
+      "jungle",
+      "mid",
+      "top"
+    ]
+  },
+  "xerath": {
+    "japanese_name": "ゼラス",
+    "positions": [
+      "support",
+      "mid"
+    ]
+  },
+  "zeri": {
+    "japanese_name": "ゼリ",
+    "positions": [
+      "adc"
+    ]
+  },
   "sona": {
-    "japanese_name": "Sona",
+    "japanese_name": "ソナ",
     "positions": [
       "support"
     ]
   },
   "soraka": {
-    "japanese_name": "Soraka",
+    "japanese_name": "ソラカ",
     "positions": [
       "support"
     ]
   },
-  "swain": {
-    "japanese_name": "Swain",
-    "positions": [
-      "mid",
-      "support",
-      "adc"
-    ]
-  },
-  "sylas": {
-    "japanese_name": "Sylas",
-    "positions": [
-      "mid",
-      "top",
-      "jungle"
-    ]
-  },
-  "syndra": {
-    "japanese_name": "Syndra",
+  "zoe": {
+    "japanese_name": "ゾーイ",
     "positions": [
       "mid"
     ]
   },
   "tahmkench": {
-    "japanese_name": "Tahm Kench",
+    "japanese_name": "タム・ケンチ",
     "positions": [
       "support",
-      "top",
-      "adc"
+      "adc",
+      "top"
+    ]
+  },
+  "taric": {
+    "japanese_name": "タリック",
+    "positions": [
+      "support"
     ]
   },
   "taliyah": {
-    "japanese_name": "Taliyah",
+    "japanese_name": "タリヤ",
     "positions": [
       "mid",
       "jungle"
     ]
   },
   "talon": {
-    "japanese_name": "Talon",
+    "japanese_name": "タロン",
+    "positions": [
+      "jungle",
+      "mid"
+    ]
+  },
+  "diana": {
+    "japanese_name": "ダイアナ",
     "positions": [
       "mid",
       "jungle"
     ]
   },
-  "taric": {
-    "japanese_name": "Taric",
-    "positions": [
-      "support"
-    ]
-  },
-  "teemo": {
-    "japanese_name": "Teemo",
+  "darius": {
+    "japanese_name": "ダリウス",
     "positions": [
       "top"
     ]
   },
-  "thresh": {
-    "japanese_name": "Thresh",
-    "positions": [
-      "support"
-    ]
-  },
-  "tristana": {
-    "japanese_name": "Tristana",
+  "chogath": {
+    "japanese_name": "チョ＝ガス",
     "positions": [
       "mid",
-      "adc"
-    ]
-  },
-  "trundle": {
-    "japanese_name": "Trundle",
-    "positions": [
-      "top",
-      "jungle"
-    ]
-  },
-  "tryndamere": {
-    "japanese_name": "Tryndamere",
-    "positions": [
       "top"
     ]
   },
   "twistedfate": {
-    "japanese_name": "Twisted Fate",
+    "japanese_name": "ツイステッド・フェイト",
     "positions": [
       "mid"
     ]
   },
+  "teemo": {
+    "japanese_name": "ティーモ",
+    "positions": [
+      "top"
+    ]
+  },
   "twitch": {
-    "japanese_name": "Twitch",
+    "japanese_name": "トゥイッチ",
     "positions": [
       "support",
       "adc"
     ]
   },
-  "udyr": {
-    "japanese_name": "Udyr",
+  "trundle": {
+    "japanese_name": "トランドル",
     "positions": [
-      "top",
-      "jungle"
+      "jungle",
+      "top"
     ]
   },
-  "urgot": {
-    "japanese_name": "Urgot",
+  "tristana": {
+    "japanese_name": "トリスターナ",
+    "positions": [
+      "mid",
+      "adc"
+    ]
+  },
+  "tryndamere": {
+    "japanese_name": "トリンダメア",
     "positions": [
       "top"
     ]
   },
-  "varus": {
-    "japanese_name": "Varus",
+  "drmundo": {
+    "japanese_name": "ドクター・ムンド",
+    "positions": [
+      "top"
+    ]
+  },
+  "draven": {
+    "japanese_name": "ドレイヴン",
     "positions": [
       "adc"
     ]
   },
-  "vayne": {
-    "japanese_name": "Vayne",
+  "nasus": {
+    "japanese_name": "ナサス",
     "positions": [
-      "top",
-      "adc"
+      "top"
     ]
   },
-  "veigar": {
-    "japanese_name": "Veigar",
-    "positions": [
-      "mid"
-    ]
-  },
-  "velkoz": {
-    "japanese_name": "Vel'Koz",
+  "naafiri": {
+    "japanese_name": "ナフィーリ",
     "positions": [
       "mid",
+      "top"
+    ]
+  },
+  "nami": {
+    "japanese_name": "ナミ",
+    "positions": [
       "support"
     ]
   },
-  "vex": {
-    "japanese_name": "Vex",
+  "gnar": {
+    "japanese_name": "ナー",
     "positions": [
+      "top"
+    ]
+  },
+  "nidalee": {
+    "japanese_name": "ニダリー",
+    "positions": [
+      "jungle"
+    ]
+  },
+  "neeko": {
+    "japanese_name": "ニーコ",
+    "positions": [
+      "support",
       "mid"
     ]
   },
-  "vi": {
-    "japanese_name": "Vi",
+  "nilah": {
+    "japanese_name": "ニーラ",
+    "positions": [
+      "adc"
+    ]
+  },
+  "nunu": {
+    "japanese_name": "ヌヌ＆ウィルンプ",
     "positions": [
       "jungle"
     ]
   },
-  "viego": {
-    "japanese_name": "Viego",
+  "nocturne": {
+    "japanese_name": "ノクターン",
     "positions": [
       "jungle"
+    ]
+  },
+  "nautilus": {
+    "japanese_name": "ノーチラス",
+    "positions": [
+      "support"
+    ]
+  },
+  "heimerdinger": {
+    "japanese_name": "ハイマーディンガー",
+    "positions": [
+      "support"
+    ]
+  },
+  "bard": {
+    "japanese_name": "バード",
+    "positions": [
+      "support"
+    ]
+  },
+  "pyke": {
+    "japanese_name": "パイク",
+    "positions": [
+      "support"
+    ]
+  },
+  "pantheon": {
+    "japanese_name": "パンテオン",
+    "positions": [
+      "support",
+      "mid",
+      "top"
     ]
   },
   "viktor": {
-    "japanese_name": "Viktor",
+    "japanese_name": "ビクター",
     "positions": [
       "mid"
     ]
   },
-  "vladimir": {
-    "japanese_name": "Vladimir",
-    "positions": [
-      "mid",
-      "top"
-    ]
-  },
-  "volibear": {
-    "japanese_name": "Volibear",
+  "fiora": {
+    "japanese_name": "フィオラ",
     "positions": [
       "top"
     ]
   },
-  "warwick": {
-    "japanese_name": "Warwick",
+  "fizz": {
+    "japanese_name": "フィズ",
     "positions": [
-      "top",
+      "mid"
+    ]
+  },
+  "fiddlesticks": {
+    "japanese_name": "フィドルスティックス",
+    "positions": [
+      "support",
       "jungle"
     ]
   },
-  "monkeyking": {
-    "japanese_name": "Wukong",
+  "briar": {
+    "japanese_name": "ブライアー",
     "positions": [
-      "top",
       "jungle"
     ]
   },
-  "xayah": {
-    "japanese_name": "Xayah",
+  "braum": {
+    "japanese_name": "ブラウム",
     "positions": [
-      "adc"
-    ]
-  },
-  "xerath": {
-    "japanese_name": "Xerath",
-    "positions": [
-      "mid",
       "support"
     ]
   },
-  "xinzhao": {
-    "japanese_name": "Xin Zhao",
+  "vladimir": {
+    "japanese_name": "ブラッドミア",
+    "positions": [
+      "mid",
+      "top"
+    ]
+  },
+  "brand": {
+    "japanese_name": "ブランド",
+    "positions": [
+      "support",
+      "mid",
+      "jungle"
+    ]
+  },
+  "blitzcrank": {
+    "japanese_name": "ブリッツクランク",
+    "positions": [
+      "support"
+    ]
+  },
+  "hecarim": {
+    "japanese_name": "ヘカリム",
     "positions": [
       "jungle"
     ]
   },
-  "yasuo": {
-    "japanese_name": "Yasuo",
+  "veigar": {
+    "japanese_name": "ベイガー",
+    "positions": [
+      "mid"
+    ]
+  },
+  "belveth": {
+    "japanese_name": "ベル＝ヴェス",
+    "positions": [
+      "jungle"
+    ]
+  },
+  "volibear": {
+    "japanese_name": "ボリベア",
+    "positions": [
+      "top"
+    ]
+  },
+  "poppy": {
+    "japanese_name": "ポッピー",
+    "positions": [
+      "support",
+      "jungle",
+      "top"
+    ]
+  },
+  "maokai": {
+    "japanese_name": "マオカイ",
+    "positions": [
+      "support",
+      "jungle",
+      "top"
+    ]
+  },
+  "masteryi": {
+    "japanese_name": "マスター・イー",
+    "positions": [
+      "jungle"
+    ]
+  },
+  "malzahar": {
+    "japanese_name": "マルザハール",
+    "positions": [
+      "mid"
+    ]
+  },
+  "malphite": {
+    "japanese_name": "マルファイト",
     "positions": [
       "mid",
-      "top",
+      "top"
+    ]
+  },
+  "missfortune": {
+    "japanese_name": "ミス・フォーチュン",
+    "positions": [
       "adc"
     ]
   },
+  "milio": {
+    "japanese_name": "ミリオ",
+    "positions": [
+      "support"
+    ]
+  },
+  "morgana": {
+    "japanese_name": "モルガナ",
+    "positions": [
+      "support",
+      "jungle"
+    ]
+  },
+  "mordekaiser": {
+    "japanese_name": "モルデカイザー",
+    "positions": [
+      "top"
+    ]
+  },
+  "yasuo": {
+    "japanese_name": "ヤスオ",
+    "positions": [
+      "mid",
+      "adc",
+      "top"
+    ]
+  },
+  "yuumi": {
+    "japanese_name": "ユーミ",
+    "positions": [
+      "support"
+    ]
+  },
   "yone": {
-    "japanese_name": "Yone",
+    "japanese_name": "ヨネ",
     "positions": [
       "mid",
       "top"
     ]
   },
   "yorick": {
-    "japanese_name": "Yorick",
+    "japanese_name": "ヨリック",
     "positions": [
       "top"
     ]
   },
-  "yuumi": {
-    "japanese_name": "Yuumi",
-    "positions": [
-      "support"
-    ]
-  },
-  "zac": {
-    "japanese_name": "Zac",
-    "positions": [
-      "support",
-      "top",
-      "jungle"
-    ]
-  },
-  "zed": {
-    "japanese_name": "Zed",
-    "positions": [
-      "mid",
-      "top",
-      "jungle"
-    ]
-  },
-  "zeri": {
-    "japanese_name": "Zeri",
-    "positions": [
-      "adc"
-    ]
-  },
-  "ziggs": {
-    "japanese_name": "Ziggs",
-    "positions": [
-      "mid",
-      "adc"
-    ]
-  },
-  "zilean": {
-    "japanese_name": "Zilean",
-    "positions": [
-      "support"
-    ]
-  },
-  "zoe": {
-    "japanese_name": "Zoe",
+  "ryze": {
+    "japanese_name": "ライズ",
     "positions": [
       "mid"
     ]
   },
-  "zyra": {
-    "japanese_name": "Zyra",
+  "rakan": {
+    "japanese_name": "ラカン",
     "positions": [
       "support"
+    ]
+  },
+  "lux": {
+    "japanese_name": "ラックス",
+    "positions": [
+      "support",
+      "mid"
+    ]
+  },
+  "rammus": {
+    "japanese_name": "ラムス",
+    "positions": [
+      "jungle"
+    ]
+  },
+  "rumble": {
+    "japanese_name": "ランブル",
+    "positions": [
+      "jungle",
+      "mid",
+      "top"
+    ]
+  },
+  "lissandra": {
+    "japanese_name": "リサンドラ",
+    "positions": [
+      "mid"
+    ]
+  },
+  "lillia": {
+    "japanese_name": "リリア",
+    "positions": [
+      "jungle"
+    ]
+  },
+  "riven": {
+    "japanese_name": "リヴェン",
+    "positions": [
+      "top"
+    ]
+  },
+  "leesin": {
+    "japanese_name": "リー・シン",
+    "positions": [
+      "jungle"
+    ]
+  },
+  "lucian": {
+    "japanese_name": "ルシアン",
+    "positions": [
+      "adc"
+    ]
+  },
+  "leblanc": {
+    "japanese_name": "ルブラン",
+    "positions": [
+      "mid"
+    ]
+  },
+  "lulu": {
+    "japanese_name": "ルル",
+    "positions": [
+      "support"
+    ]
+  },
+  "leona": {
+    "japanese_name": "レオナ",
+    "positions": [
+      "support"
+    ]
+  },
+  "reksai": {
+    "japanese_name": "レク＝サイ",
+    "positions": [
+      "jungle"
+    ]
+  },
+  "renata": {
+    "japanese_name": "レナータ・グラスク",
+    "positions": [
+      "support"
+    ]
+  },
+  "renekton": {
+    "japanese_name": "レネクトン",
+    "positions": [
+      "mid",
+      "top"
+    ]
+  },
+  "rell": {
+    "japanese_name": "レル",
+    "positions": [
+      "support",
+      "jungle"
+    ]
+  },
+  "rengar": {
+    "japanese_name": "レンガー",
+    "positions": [
+      "jungle",
+      "top"
+    ]
+  },
+  "warwick": {
+    "japanese_name": "ワーウィック",
+    "positions": [
+      "jungle",
+      "top"
+    ]
+  },
+  "vi": {
+    "japanese_name": "ヴァイ",
+    "positions": [
+      "jungle"
+    ]
+  },
+  "varus": {
+    "japanese_name": "ヴァルス",
+    "positions": [
+      "adc"
+    ]
+  },
+  "viego": {
+    "japanese_name": "ヴィエゴ",
+    "positions": [
+      "jungle"
+    ]
+  },
+  "vayne": {
+    "japanese_name": "ヴェイン",
+    "positions": [
+      "adc",
+      "top"
+    ]
+  },
+  "vex": {
+    "japanese_name": "ヴェックス",
+    "positions": [
+      "mid"
+    ]
+  },
+  "velkoz": {
+    "japanese_name": "ヴェル＝コズ",
+    "positions": [
+      "support",
+      "mid"
     ]
   }
 }

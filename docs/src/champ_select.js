@@ -27,9 +27,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 };
                 const label = document.createElement('label');
                 label.htmlFor = champion;
-                // チャンピオンの名前と役割をラベルに追加
-                const roles = championsData[champion].join(' ');
-                label.appendChild(document.createTextNode(`${champion} : ${roles}`));
+                // チャンピオンの英名、日本語名、役割をラベルに追加
+                const japaneseName = championsData[champion].japanese_name;
+                const roles = championsData[champion].positions.join(' ');
+                label.appendChild(document.createTextNode(`${champion}(${japaneseName}) : ${roles}`));
                 list.appendChild(checkbox);
                 list.appendChild(label);
                 list.appendChild(document.createElement('br'));
@@ -50,9 +51,10 @@ document.addEventListener('DOMContentLoaded', () => {
         list.innerHTML = ''; // リストをクリア
         selectedChampions.forEach((champion) => {
             const li = document.createElement('li');
-            // チャンピオンの名前と役割を表示
-            const roles = championsData[champion].join(' '); // 役割を取得して文字列に変換
-            li.textContent = `${champion} : ${roles}`;
+            // チャンピオンの英名、日本語名、役割を表示
+            const japaneseName = championsData[champion].japanese_name;
+            const roles = championsData[champion].positions.join(' '); // 役割を取得して文字列に変換
+            li.textContent = `${champion}(${japaneseName}) : ${roles}`;
             list.appendChild(li);
         });
     }

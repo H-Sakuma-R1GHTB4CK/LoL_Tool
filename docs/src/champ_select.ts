@@ -20,6 +20,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 return response.json();
             });
     }
+    
+    let currentFilter = 'all';  // 現在選択されているフィルター
 
     function updateDisplayedList(championsData: ChampionsData): void {
         const searchQuery: string = (document.getElementById('searchBar') as HTMLInputElement).value.toLowerCase();
@@ -27,7 +29,9 @@ document.addEventListener('DOMContentLoaded', () => {
         list.innerHTML = ''; // リストをクリア
         Object.keys(championsData).forEach((champion) => {
             const japaneseName = championsData[champion].japanese_name.toLowerCase();
-            if (champion.toLowerCase().includes(searchQuery) || japaneseName.includes(searchQuery)) {
+            const roles = championsData[champion].positions.join(' ');
+            if ((champion.toLowerCase().includes(searchQuery) || japaneseName.includes(searchQuery)) &&
+            (currentFilter === 'all' || championsData[champion].positions.includes(currentFilter))) {
                 const checkbox: HTMLInputElement = document.createElement('input');
                 checkbox.type = 'checkbox';
                 checkbox.id = champion;
@@ -37,20 +41,37 @@ document.addEventListener('DOMContentLoaded', () => {
                 checkbox.onchange = () => {
                     onCheckboxChange(checkbox, champion, championsData);
                 };
-    
+
                 const label: HTMLLabelElement = document.createElement('label');
                 label.htmlFor = champion;
                 const roles = championsData[champion].positions.join(' ');
                 label.appendChild(document.createTextNode(`${champion}(${japaneseName}) : ${roles}`));
-    
+
                 list.appendChild(checkbox);
                 list.appendChild(label);
                 list.appendChild(document.createElement('br'));
             }
         });
     }
+    // フィルターボタンのイベントハンドラ
+    function setupFilterButtons() {
+        const buttons = document.querySelectorAll('.filter-button');
+        buttons.forEach((button) => {
+            button.addEventListener('click', (event) => {
+                // イベントのcurrentTargetをHTMLButtonElementとしてキャスト
+                const clickedButton = event.currentTarget as HTMLButtonElement;
     
-    
+                buttons.forEach(btn => btn.classList.remove('selected'));
+                clickedButton.classList.add('selected');
+                currentFilter = clickedButton.dataset.filter || 'all';
+                fetchData().then(updateDisplayedList).catch(error => {
+                    console.error('Error fetching the champions data:', error);
+                });
+            });
+        });
+    }
+    setupFilterButtons();
+
 
     function onCheckboxChange(checkbox: HTMLInputElement, champion: string, championsData: ChampionsData): void {
         if (checkbox.checked) {
@@ -74,7 +95,7 @@ document.addEventListener('DOMContentLoaded', () => {
             list.appendChild(li);
         });
     }
-    
+
 
 
     // 検索バーと初期のリスト表示
@@ -89,4 +110,15 @@ document.addEventListener('DOMContentLoaded', () => {
     fetchData().then(updateDisplayedList).catch(error => {
         console.error('Error fetching the champions data:', error);
     });
+
+    const buttons = document.querySelectorAll('.filter-button');
+    buttons.forEach((button) => {
+        button.addEventListener('click', () => {
+            // 他のボタンの選択状態を解除
+            buttons.forEach(btn => btn.classList.remove('selected'));
+            // クリックされたボタンに 'selected' クラスを追加
+            button.classList.add('selected');
+        });
+    });
+
 });

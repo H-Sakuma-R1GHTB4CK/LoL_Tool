@@ -1,4 +1,5 @@
 "use strict";
+// このインターフェースは、JSONデータの構造を定義します。
 document.addEventListener('DOMContentLoaded', () => {
     let selectedChampions = [];
     function fetchData() {
@@ -68,14 +69,100 @@ document.addEventListener('DOMContentLoaded', () => {
     function updateSelectedList(championsData) {
         const list = document.getElementById('selectedList');
         list.innerHTML = ''; // リストをクリア
-        selectedChampions.forEach((champion) => {
+        selectedChampions.forEach((championKey) => {
             const li = document.createElement('li');
-            // チャンピオンの英名、日本語名、役割を表示
-            const japaneseName = championsData[champion].japanese_name;
-            const roles = championsData[champion].positions.join(' '); // 役割を取得して文字列に変換
-            li.textContent = `${champion}(${japaneseName}) : ${roles}`;
+            // 日本語名を取得して表示
+            const japaneseName = championsData[championKey].japanese_name;
+            const roles = championsData[championKey].positions.join(' ');
+            li.textContent = `${championKey}(${japaneseName}) : ${roles}`;
+            li.onclick = () => {
+                fetchChampionDetails(championKey)
+                    .then(displayChampionDetails)
+                    .catch(error => console.error('Error fetching the champion details:', error));
+            };
             list.appendChild(li);
         });
+    }
+    // チャンピオンの詳細情報をフェッチする関数
+    function fetchChampionDetails(championKey) {
+        return fetch('src/champion_details.json')
+            .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
+            .then((details) => details[championKey]);
+    }
+    // チャンピオンの詳細情報を表示する関数
+    function displayChampionDetails(championInfo) {
+        const detailsContainer = document.getElementById('championDetailsContainer');
+        if (detailsContainer) {
+            // 基本性能の情報を表示
+            // const baseStatsElement = document.getElementById('baseStats');
+            // if (baseStatsElement) {
+            //     baseStatsElement.textContent = ''; // コンテナの内容をクリア
+            //     if (championInfo.base_stats) {
+            //         const roleParagraph = document.createElement('p');
+            //         roleParagraph.classList.add('base-stats-role');
+            //         roleParagraph.textContent = `Role: ${championInfo.base_stats.role}`;
+            //         baseStatsElement.appendChild(roleParagraph);
+            //         const featuresParagraph = document.createElement('p');
+            //         featuresParagraph.classList.add('base-stats-features');
+            //         featuresParagraph.textContent = `Features: ${championInfo.base_stats.features}`;
+            //         baseStatsElement.appendChild(featuresParagraph);
+            //     }
+            // }
+            const baseStatsElement = document.getElementById('baseStats');
+            updateBaseStatsContent(baseStatsElement, championInfo.base_stats);
+            // OW/Valorantとの比較を表示
+            const comparisonElement = document.getElementById('comparison');
+            updateTextContent(comparisonElement, championInfo.comparison, 'comparison');
+            // スキル情報を表示
+            const skillsElement = document.getElementById('skills');
+            updateSkillsContent(skillsElement, championInfo.skills);
+            // ゲームプレイのヒントを表示
+            const gameplayTipsElement = document.getElementById('gameplayTips');
+            updateTextContent(gameplayTipsElement, championInfo.gameplay_tips, 'gameplay-tips');
+        }
+        else {
+            console.error('Champion details container not found');
+        }
+    }
+    // 項目のテキストを更新するヘルパー関数
+    function updateTextContent(element, textContent, className) {
+        if (element) {
+            element.textContent = textContent || ''; // textContentがundefinedの場合は空文字を設定
+            element.classList.add(className); // CSSでスタイルを適用するためのクラスを追加
+        }
+    }
+    // 基本情報を更新するヘルパー関数
+    function updateBaseStatsContent(element, base_stats) {
+        if (element) {
+            element.innerHTML = ''; // Clear previous base_stats
+            if (base_stats) {
+                Object.entries(base_stats).forEach(([base_stat, description]) => {
+                    const base_statItem = document.createElement('li');
+                    base_statItem.classList.add('base_stat-item'); // CSSでスタイルを適用するためのクラスを追加
+                    base_statItem.innerHTML = `<span class="base_stat-key">${base_stat}:</span> ${description || ''}`;
+                    element.appendChild(base_statItem);
+                });
+            }
+        }
+    }
+    // スキル情報を更新するヘルパー関数
+    function updateSkillsContent(element, skills) {
+        if (element) {
+            element.innerHTML = ''; // Clear previous skills
+            if (skills) {
+                Object.entries(skills).forEach(([skill, description]) => {
+                    const skillItem = document.createElement('li');
+                    skillItem.classList.add('skill-item'); // CSSでスタイルを適用するためのクラスを追加
+                    skillItem.innerHTML = `<span class="skill-key">${skill}:</span> ${description || ''}`;
+                    element.appendChild(skillItem);
+                });
+            }
+        }
     }
     // 検索バーと初期のリスト表示
     const searchBar = document.getElementById('searchBar');

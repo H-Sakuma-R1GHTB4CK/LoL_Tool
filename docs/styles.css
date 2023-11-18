@@ -12,6 +12,27 @@
     /* 各項目が均等にスペースを取るように */
 }
 
+/* `championDetailsContainer` に特定のスタイルを追加 */
+#championDetailsContainer {
+    flex: 2; /* 他の `.list-container` 要素の2倍のスペースを取るように設定 */
+    /* 必要であれば `flex-basis` も設定できます。例: flex-basis: 400px; */
+}
+
+.base_stat-key,
+.skill-key {
+    font-weight: bold;
+}
+
+
+/* .skill-item {
+    font-weight: bold;
+} */
+
+/* .base-stats,
+.comparison,
+.gameplay-tips {
+    font-weight: bold;
+} */
 /* ボタンの基本スタイル */
 .filter-button {
     padding: 5px 10px;

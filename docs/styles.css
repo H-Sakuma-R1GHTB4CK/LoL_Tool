@@ -12,4 +12,17 @@
     /* 各項目が均等にスペースを取るように */
 }
 
+/* ボタンの基本スタイル */
+.filter-button {
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  /* 選択されたボタンのスタイル */
+  .filter-button.selected {
+    color: white;
+    background-color: blue;
+  }
+  
 /* 必要に応じて他のスタイル */

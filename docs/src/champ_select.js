@@ -10,13 +10,16 @@ document.addEventListener('DOMContentLoaded', () => {
             return response.json();
         });
     }
+    let currentFilter = 'all'; // 現在選択されているフィルター
     function updateDisplayedList(championsData) {
         const searchQuery = document.getElementById('searchBar').value.toLowerCase();
         const list = document.getElementById('championsContainer');
         list.innerHTML = ''; // リストをクリア
         Object.keys(championsData).forEach((champion) => {
             const japaneseName = championsData[champion].japanese_name.toLowerCase();
-            if (champion.toLowerCase().includes(searchQuery) || japaneseName.includes(searchQuery)) {
+            const roles = championsData[champion].positions.join(' ');
+            if ((champion.toLowerCase().includes(searchQuery) || japaneseName.includes(searchQuery)) &&
+                (currentFilter === 'all' || championsData[champion].positions.includes(currentFilter))) {
                 const checkbox = document.createElement('input');
                 checkbox.type = 'checkbox';
                 checkbox.id = champion;
@@ -36,6 +39,23 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     }
+    // フィルターボタンのイベントハンドラ
+    function setupFilterButtons() {
+        const buttons = document.querySelectorAll('.filter-button');
+        buttons.forEach((button) => {
+            button.addEventListener('click', (event) => {
+                // イベントのcurrentTargetをHTMLButtonElementとしてキャスト
+                const clickedButton = event.currentTarget;
+                buttons.forEach(btn => btn.classList.remove('selected'));
+                clickedButton.classList.add('selected');
+                currentFilter = clickedButton.dataset.filter || 'all';
+                fetchData().then(updateDisplayedList).catch(error => {
+                    console.error('Error fetching the champions data:', error);
+                });
+            });
+        });
+    }
+    setupFilterButtons();
     function onCheckboxChange(checkbox, champion, championsData) {
         if (checkbox.checked) {
             selectedChampions.push(champion); // チャンピオンを選択リストに追加
@@ -67,5 +87,14 @@ document.addEventListener('DOMContentLoaded', () => {
     // 初期データの取得とリストの更新
     fetchData().then(updateDisplayedList).catch(error => {
         console.error('Error fetching the champions data:', error);
+    });
+    const buttons = document.querySelectorAll('.filter-button');
+    buttons.forEach((button) => {
+        button.addEventListener('click', () => {
+            // 他のボタンの選択状態を解除
+            buttons.forEach(btn => btn.classList.remove('selected'));
+            // クリックされたボタンに 'selected' クラスを追加
+            button.classList.add('selected');
+        });
     });
 });

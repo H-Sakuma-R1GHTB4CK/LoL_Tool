@@ -14,7 +14,7 @@
 
 /* `championDetailsContainer` に特定のスタイルを追加 */
 #championDetailsContainer {
-    flex: 2; /* 他の `.list-container` 要素の2倍のスペースを取るように設定 */
+    flex: 4; /* 他の `.list-container` 要素の2倍のスペースを取るように設定 */
     /* 必要であれば `flex-basis` も設定できます。例: flex-basis: 400px; */
 }
 
